@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Titillium+Web:ital@0;1&display=swap');
+
+/* font-family: 'Didact Gothic', sans-serif;
+font-family: 'Titillium Web', sans-serif; */
+/* https://images4.alphacoders.com/115/1152333.jpg */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #cfcfcf;
+}
+
+header{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 18px;
+}
+
+.imagem-botao > img{
+    width: 300px;
+}
+
+header > nav{
+    display: flex;
+    gap: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    margin-right: 5%;
+}
+
+body{
+    background: url(https://images4.alphacoders.com/115/1152333.jpg);
+    background-size: cover;
+}
+
+.imagem-botao{
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imagem-botao-botao{
+    background-color: rgb(255, 145, 0);
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+.imagem-botao-botao:hover{
+    background-color: rgb(185, 108, 6);
+    transition: 0.5s;
+}
+
+.apresentacao{
+    border-top: 0.4px solid #cfcfcf;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20%;
+    padding: 64px 2vh;
+}
+
+.apresentacao-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+
+.apresentacao-texto > h1{
+    padding: 12px 2vh;
+    padding-top: 24px;
+}
+
+.conquistas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 18px 2vh;
+    padding-bottom: 48px;
+    text-align: center;
+}
+
+.conquistas-titulo{
+    border-top: 1px solid #cfcfcf;
+    padding: 12px 2vh;
+    padding-top: 48px;
+}
+
+footer{
+    font-family: 'Didact Gothic', sans-serif;
+    display: flex;
+    align-items: center;
+    border-top: 0.4px solid #cfcfcf;
+    padding: 18px 2vh;
+    gap: 25px;
+}
+
+@media only screen and (max-width: 700px){
+    .apresentacao{
+        flex-direction: column;
+    }
+    .imagem-botao{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
